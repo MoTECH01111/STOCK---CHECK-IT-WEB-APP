@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CheckIt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CheckIt.xsd">
+    <shop>
+        <stock>
+            <item id="222-09">
+                <name>Nike Tech</name>
+                <style>Tracksuit</style>
+                <size>Medium</size>
+                <price>200.00</price>
+                <description>Black</description>
+                <quantity>30</quantity>
+                <availability>In Stock</availability>
+            </item>
+            <item id="356-01">
+                <name>Laker Jersey</name>
+                <style>Jersey</style>
+                <size>Medium</size>
+                <price>110.00</price>
+                <description>Grey</description>
+                <quantity>60</quantity>
+                <availability>In Stock</availability>
+            </item>
+            <item id="701-08">
+                <name>Hugo Boss</name>
+                <style>Shirt</style>
+                <size>Medium</size>
+                <price>50.00</price>
+                <description>Blue</description>
+                <quantity>0</quantity>
+                <availability>No Stock</availability>
+            </item>
+            <item id="702-87">
+                <name>Jordan</name>
+                <style>Short</style>
+                <size>Large</size>
+                <price>30.00</price>
+                <description>Red</description>
+                <quantity>70</quantity>
+                <availability>In Stock</availability>
+            </item>
+            <item id="530-78">
+                <name>Adidas</name>
+                <style>Jacket</style>
+                <size>Small</size>
+                <price>150.00</price>
+                <description>Blue</description>
+                <quantity>0</quantity>
+                <availability>No Stock</availability>
+            </item>
+            <item id="531-67">
+                <name>Daily Paper</name>
+                <style>Bomer</style>
+                <size>Medium</size>
+                <price>100.00</price>
+                <description>Black</description>
+                <quantity>90</quantity>
+                <availability>In Stock</availability>
+            </item>
+            <item id="200-78">
+                <name>Dsquared</name>
+                <style>Tracksuit</style>
+                <size>Large</size>
+                <price>200.00</price>
+                <description>Black/Red</description>
+                <quantity>80</quantity>
+                <availability>In Stock</availability>
+            </item>
+            <item id="210-33">
+                <name>Balenciaga</name>
+                <style>Jumper</style>
+                <size>Medium</size>
+                <price>190.00</price>
+                <description>Green</description>
+                <quantity>100</quantity>
+                <availability>In Stock</availability>
+            </item>
+            <item id="231-89">
+                <name>Louis Vuitton</name>
+                <style>Man bag</style>
+                <size>One size</size>
+                <price>1000.00</price>
+                <description>Blue/Navy</description>
+                <quantity>15</quantity>
+                <availability>In Stock</availability>
+            </item>
+            <item id="235-78">
+                <name>Gucci</name>
+                <style>Man bag</style>
+                <size>One size</size>
+                <price>750.00</price>
+                <description>Khaki</description>
+                <quantity>0</quantity>
+                <availability>No Stock</availability>
+            </item>
+        </stock>
+    </shop>
+</CheckIt>

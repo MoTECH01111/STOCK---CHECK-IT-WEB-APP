@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--The XML Schema's root element is this. It marks the start of the definition of the schema-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Checkit">
+        <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="shop"> <!--This indicates that within an XML document that follows this schema-->
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="stock"><!--This indicates that within an XML document that follows this schema-->
+                                    <xs:complexType>
+                                        <xs:sequence> <!--The structure of XML documents that follow this schema can be flexible because the "item" element can appear as many times as necessary within its parent element-->
+                                            <xs:element name="item" maxOccurs="unbounded">
+                                                <xs:complexType>
+                                                    <xs:sequence> <!--Every <xs:element> describes a child element and its data type inside the "item" element-->
+                                                        <xs:element name="name" type="xs:string"/>
+                                                        <xs:element name="style" type="xs:string"/>
+                                                        <xs:element name="size" type="xs:string"/>
+                                                        <xs:element name="price" type="xs:decimal"/>
+                                                        <xs:element name="description" type="xs:string"/>
+                                                        <xs:element name="quantity" type="xs:nonNegativeInteger"/>
+                                                        <xs:element name="availability" type="xs:string"/>
+                                                    </xs:sequence>
+                                                    <xs:attribute name="id"  use="required"/> <!--specifying the "id" attribute for the "item" element-->
+                                                </xs:complexType>    
+                                            </xs:element>        
+                                        </xs:sequence>     
+                                    </xs:complexType>     
+                                </xs:element>           
+                            </xs:sequence>                                
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+ <!--
+    Document   : Checkit.xsd
+    Created on : 20 October 2023, 20:08
+    Author     : Morris Ouedraogo
+
+-->

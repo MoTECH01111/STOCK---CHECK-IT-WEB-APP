@@ -1,0 +1,190 @@
+/* 
+    Created on : 17 Oct 2023, 15:26:01
+    Author Morris Ouedraogo
+*/
+
+.topnav {
+        background-color: #000000;
+        overflow: hidden;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #000000;
+        color: white;
+    }
+    
+    body {
+        font-family: Kenia;
+        text-align: center;
+        background-color: #f0f0f0;
+        background-image: url("wall.jpeg");
+        margin: 0;
+        padding: 0px;
+    }
+    
+    h1, h2, h3 {
+        margin-top: 20px;
+        font-family: Kenia;
+    }
+    
+    label {
+        font-size: 20px;
+    }
+    
+    /* Same padding for all input fields and textareas */
+    input[type="text"], input[type="password"],  input[type="email"], textarea {
+        padding: 5px; /* Match the button padding */
+        font-size: 16px;
+    }
+    
+
+    button {
+        margin-top: 10px;
+        padding: 10px 30px; /* Ensure button has same padding */
+        background-color: #000000; /* Black button */
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #333; /* Optional hover effect */
+    }
+    
+    #itemId {
+        padding: 10px; /* Match padding with button and input */
+        font-size: 16px;
+    }
+    
+    #itemInfo {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    
+    th, td {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    marquee {
+        font-size: 70px;
+        font-weight: 800;
+        color: #000000;
+        font-family: Kenia;
+    }
+    
+    .about {
+        text-align: center;
+    }
+    
+    .l-image {
+        border-radius: 10px;
+        padding: 10px;
+        width: 300px;
+        gap: 5px;
+        right: 50%;
+        position: absolute;
+    }
+    
+    .r-image {
+        border-radius: 4px;
+        padding: 10px;
+        width: 300px;
+        gap: 5px;
+        left: 50%;
+        position: absolute;
+        flex-direction: column;
+    }
+    
+    /* for the heading in each page */
+    #text, #text2, #text3, #text4, #text5 {
+        display: none;
+    }
+    
+    #text6, #text7, #text8, #text9, #text10 {
+        display: none;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        background-color: #000000;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    /* 
+    Created on : 20 October 2023
+    Author     : Morris Ouedraogo
+*/
+
+    .subscribe-box input[type="email"] {
+        width: 300px; /* Increase the width of the email input */
+        padding: 10px; /* Add padding for a better look */
+        font-size: 16px;
+        border: 1px solid #ccc; /* Optional: Add a border */
+        border-radius: 4px; /* Optional: Rounded corners */
+    }
+    
+    .subscribe-box button {
+        background-color: #000000; /* Black background for button */
+        color: #ffffff; /* White text */
+        padding: 10px 20px; /* Padding for a better button size */
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .subscribe-box button:hover {
+        background-color: #333333; /* Lighter black on hover */
+    }
+    
+    
+    main {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .submit{
+        margin-top: 10px;
+        padding: 10px 30px; /* Ensure button has same padding */
+        background-color: #000000; /* Black button */
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    

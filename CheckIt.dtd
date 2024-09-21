@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT CheckIt (shop)*>
+<!ATTLIST CheckIt
+    xsi|noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns|xsi CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT shop (stock)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT stock (item)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT item (name|style|size|price|description|quantity|availability)*>
+<!ATTLIST item
+    id CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT style (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT size (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT price (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT description (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT quantity (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT availability (#PCDATA)>
